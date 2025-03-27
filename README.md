@@ -19,12 +19,19 @@
 ***
 ## Создание `backup` внутри контейнера.
 
-`docker exec zubaev pg_dumpall -U magamed -f /backup_all.sql`
+`docker cp zubaev:/backup_all.sql /home/magomed/backup/backup_all.sql`
 
-- выполняет резервное копирование всех баз данных `PostgreSQL` из контейнера `Docker`:
+- выполняем резервное копирование всех баз данных `PostgreSQL` из контейнера `Docker`:
 
 - `docker exec zubaev` — запускает команду внутри контейнера с именем `zubaev`.
 - `pg_dumpall` — утилита для полного бэкапа кластера (все базы + глобальные объекты).
 - `-U magamed` — подключение к `PostgreSQL` под пользователем `magamed` (должен иметь права суперпользователя).
 - `-f /backup_all.sql` — сохраняет дамп в файл `/backup_all.sql` внутри контейнера .
 ***
+## Копируем файл дампа из контейнера на хост.
+
+`docker cp zubaev:/backup_all.sql home/magomed/backup/backup_all.sql`
+![image](https://github.com/user-attachments/assets/b14f2969-9c5f-4757-a21f-838664e8d42a)
+файл удачно создан
+![image](https://github.com/user-attachments/assets/44d98ba0-4d5d-4502-9b7f-2e7ff8645f14)
+
