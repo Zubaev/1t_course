@@ -46,7 +46,26 @@
 
 ![image](https://github.com/user-attachments/assets/77ca681a-3abe-41da-a7a8-f51aeb0e20e2)
 
+***
+## Востановление базы данных
 
+
+***
+Копируем файл дампа с хоста обратно в контейнер
+
+`docker cp home/magomed/backup/backup_all.sql zubaev:/backup_all.sql`
+
+![image](https://github.com/user-attachments/assets/841b3fae-2229-4340-b4a3-217ea13e9caa)
+
+Восстанавливаем дамп через psql внутри контейнера
+
+`docker exec zubaev psql -U magamed -d story_db -f /backup_all.sql`
+
+Используем пользователя magamed (должен иметь права суперпользователя)
+
+![image](https://github.com/user-attachments/assets/99eec0ca-53fc-4c01-8789-78498bfefba7)
+
+![image](https://github.com/user-attachments/assets/b013ca5c-6639-486c-99c0-b8ab78c18566)
 
 
 ***
