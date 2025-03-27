@@ -42,6 +42,9 @@
 
 ![image](https://github.com/user-attachments/assets/ae373e78-730e-4794-b0b1-7905ff8662f5)]
 
+Удаляем таблицы, а так же пользователей.
+
+![image](https://github.com/user-attachments/assets/77ca681a-3abe-41da-a7a8-f51aeb0e20e2)
 
 
 
