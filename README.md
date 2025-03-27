@@ -38,6 +38,14 @@
 
 ![image](https://github.com/user-attachments/assets/44d98ba0-4d5d-4502-9b7f-2e7ff8645f14)
 
+Данные в Postgres во время создания backup
+
+![image](https://github.com/user-attachments/assets/ae373e78-730e-4794-b0b1-7905ff8662f5)]
+
+
+
+
+
 ***
 ## Копируем backup на Yandex Disc
 
