@@ -107,6 +107,7 @@
 
 ![image](https://github.com/user-attachments/assets/118fe6ca-4613-431c-bf3d-96e8a6c87328)
 
+Проверяем работоспособность
 
 `rclone copy /home/magomed/backup/backup_all.sql yandex:/backup/`
 
