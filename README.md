@@ -65,6 +65,8 @@
 
 ![image](https://github.com/user-attachments/assets/99eec0ca-53fc-4c01-8789-78498bfefba7)
 
+Все данные востановлены
+
 ![image](https://github.com/user-attachments/assets/b013ca5c-6639-486c-99c0-b8ab78c18566)
 
 
