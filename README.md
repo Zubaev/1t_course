@@ -112,4 +112,13 @@
 `rclone copy /home/magomed/backup/backup_all.sql yandex:/backup/`
 
 ![image](https://github.com/user-attachments/assets/45eb9f35-00eb-463c-b899-cb3fa57d00cc)
+
+
+Обернем наши команды в bash script 
+![image](https://github.com/user-attachments/assets/added787-3aa1-43e3-b64d-44d4f5908b2f)
+
+![image](https://github.com/user-attachments/assets/a15bde07-2e91-4a43-bb1a-0a41ea83ed35)
+
+
+
 ***
