@@ -75,8 +75,37 @@
 
 Для копирования backup на `Yandex Disc` будем использовать `rclone`
 
+Установливаем `rclone`
 
+`curl https://rclone.org/install.sh | sudo bash`
 
+![image](https://github.com/user-attachments/assets/1df25f85-e5d5-4442-854c-f26068c92bd1)
+
+Настроим конфигурацию командой  `rclone config`
+
+Задаем название 
+
+![image](https://github.com/user-attachments/assets/640eddb3-734d-437b-ba3c-5d8689aaf469)
+
+Выбираем хранилище в нашем случае yandex disc который под номером 57
+
+![image](https://github.com/user-attachments/assets/f164fa25-20fc-474d-9fb7-84b9a0878686)
+
+Далее `client_id` и `client_secret` оставляем пустыми
+
+Далее так же жмем  `n`
+
+![image](https://github.com/user-attachments/assets/18b90110-b0e0-4662-b9d1-b3f3ed3d9eef)
+
+необходимо получить `token` и скопировать его в 
+
+![image](https://github.com/user-attachments/assets/a4d02591-88ef-4bec-96e2-99a5f7117cad)
+
+ЖМЕМ ENTER 
+
+открываем файл `/home/magomed/.config/rclone/rclone.conf` и проверяем конфигурацию 
+
+![image](https://github.com/user-attachments/assets/118fe6ca-4613-431c-bf3d-96e8a6c87328)
 
 
 `rclone copy /home/magomed/backup/backup_all.sql yandex:/backup/`
