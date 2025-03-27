@@ -34,6 +34,7 @@
 
 ![image](https://github.com/user-attachments/assets/b14f2969-9c5f-4757-a21f-838664e8d42a)
 
-файл удачно создан
+Файл удачно создан:
+
 ![image](https://github.com/user-attachments/assets/44d98ba0-4d5d-4502-9b7f-2e7ff8645f14)
 
