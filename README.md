@@ -38,3 +38,10 @@
 
 ![image](https://github.com/user-attachments/assets/44d98ba0-4d5d-4502-9b7f-2e7ff8645f14)
 
+***
+## Копируем backup на Yandex Disc
+
+`rclone copy /home/magomed/backup/backup_all.sql yandex:/backup/`
+
+![image](https://github.com/user-attachments/assets/45eb9f35-00eb-463c-b899-cb3fa57d00cc)
+***
