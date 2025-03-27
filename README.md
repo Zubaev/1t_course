@@ -73,6 +73,12 @@
 ***
 ## Копируем backup на Yandex Disc
 
+Для копирования backup на `Yandex Disc` будем использовать `rclone`
+
+
+
+
+
 `rclone copy /home/magomed/backup/backup_all.sql yandex:/backup/`
 
 ![image](https://github.com/user-attachments/assets/45eb9f35-00eb-463c-b899-cb3fa57d00cc)
